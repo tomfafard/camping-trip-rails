@@ -1,0 +1,9 @@
+<h1> <%= @title %> </h2>
+
+<ul>
+  <% @supplies.each do |supply| %>
+    <l1> <%= supply.name %>
+  <% end %>
+</ul>
+
+<%= link_to "back to campsites page", campsites_path %>

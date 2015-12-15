@@ -1,0 +1,8 @@
+
+
+
+<ul>
+  <% @campers.each do |camper| %>
+    <li> <%= link_to camper.name, campsite_campers_path(camper) %> </li>
+  <% end %>
+</ul>
